@@ -2,6 +2,12 @@
   "name": "No Liblink",
   "version": "1.0",
   "manifest_version": 3,
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "127": "icon128.png",
+    "256": "icon256.png"
+  },
   "background": {
     "type": "module",
     "service_worker": "background.js"
