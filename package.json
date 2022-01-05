@@ -1,7 +1,7 @@
 {
   "name": "no-liblink",
   "version": "1.0",
-  "description": "",
+  "description": "Rozszerzenie automatycznie zamieniające linki liblink.pl w wiadomościach Librus Synergia na docelowe adresy stron",
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch --config webpack.dev.js",
