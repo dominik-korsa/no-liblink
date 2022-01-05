@@ -1,0 +1,22 @@
+{
+  "name": "No Liblink",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "type": "module",
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://liblink.pl/"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "*://synergia.librus.pl/wiadomosci/*/*/*/*"
+      ]
+    }
+  ]
+}
