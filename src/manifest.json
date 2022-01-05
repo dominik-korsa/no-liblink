@@ -21,7 +21,7 @@
         "content.js"
       ],
       "matches": [
-        "*://synergia.librus.pl/wiadomosci/*/*/*/*"
+        "*://synergia.librus.pl/wiadomosci/*"
       ]
     }
   ]
